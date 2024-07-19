@@ -16,7 +16,7 @@ spec:
     spec: 
       containers:
         - name: c001
-          image: srinathsj17/health
+          image: srinathsj17/health:latest
           ports:
             - containerPort: 8082
 
